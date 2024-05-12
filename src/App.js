@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>One Piece Shop</h1>
+      <h5>One Piece is the Best Anime</h5>
+      <img
+        src="https://animemaps.com/wp-content/themes/g5_epsilon/custom/images/Ashadesu/Mugiwara%201%203.jpg"
+        width="1000px"
+      />
     </div>
   );
 }
